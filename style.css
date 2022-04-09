@@ -1,5 +1,28 @@
 @import url("https://use.typekit.net/jmk3xov.css");
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; 
+} 
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} 
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px; 
+} 
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} 
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1; 
+}
+
+
 canvas {
   position: fixed;
   top: 0;
